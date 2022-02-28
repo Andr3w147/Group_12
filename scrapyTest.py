@@ -3,7 +3,7 @@ import scrapy
 
 class NewSpider(scrapy.Spider):
     name = "new_spider"
-    start_urls = ['http://brickset.com/sets/year-2021']
+    start_urls = ['https://brickset.com/sets/year-2021']
 
     def parse(self, response):
         #xpath_selector = '//img'
