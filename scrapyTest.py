@@ -22,4 +22,4 @@ class NewSpider(scrapy.Spider):
             yield scrapy.Request(
                 response.urljoin(next_page),
                 callback=self.parse
-        )
+        ) 
